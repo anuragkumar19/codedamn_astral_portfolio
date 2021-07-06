@@ -206,7 +206,7 @@ section {
     }
 
     .home-grid .card-body {
-        flex: auto;
+        display: none;
     }
 
     .home-grid .card-bottom {
