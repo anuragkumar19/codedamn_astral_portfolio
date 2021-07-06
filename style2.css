@@ -136,16 +136,17 @@ section {
     position: relative;
     flex: 3;
     height: 100%;
+   line-height: 0;
 }
 
 .btn.btn-left {
     position: absolute;
-    top: calc(50% - 60px);
+    top: calc(56% - 60px);
     right: 0;
     color: #fff;
     background: #222222;
     opacity: 0.8;
-    padding: 0.4em 0.7em;
+    padding: 0.35em 0.65em;
     font-size: 1.8em;
     border: none;
     cursor: pointer;
