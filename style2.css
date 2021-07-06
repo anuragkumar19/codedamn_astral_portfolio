@@ -200,6 +200,20 @@ section {
         gap: 1em;
         grid-template-columns: 1fr 1fr;
     }
+    
+    .home-grid {
+        flex-direction: column;
+    }
+
+    .home-grid .card-body {
+        flex: auto;
+    }
+
+    .home-grid .card-bottom {
+        flex: auto;
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* Mobile Breakpoint */
