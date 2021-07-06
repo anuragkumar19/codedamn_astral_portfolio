@@ -117,6 +117,43 @@ section {
     display: block;
 }
 
+.home-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-grid .card-body {
+    flex: 6;
+}
+
+.home-grid img {
+    width: 100%;
+}
+
+.home-grid .card-bottom {
+    position: relative;
+    flex: 5;
+    height: 100%;
+}
+
+.btn.btn-left {
+    position: absolute;
+    top: calc(50% - 60px);
+    right: 0;
+    color: #fff;
+    background: #222222;
+    opacity: 0.6;
+    padding: 1em 0.5em;
+    font-size: 1.8em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.btn-left:hover {
+    opacity: 0.6;
+}
+
 #work-tab.active {
     display: block;
 }
