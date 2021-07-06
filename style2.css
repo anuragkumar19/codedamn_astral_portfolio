@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-html,body {
+html, body {
     height: 100vh;
     overflow: auto;
 }
@@ -82,7 +82,7 @@ section {
     margin: 1em auto;
     max-width: 1000px;
     margin-bottom: 0;
-    padding-bottom: 2em;
+    overflow: hidden;
 }
 
 .card {
@@ -124,16 +124,17 @@ section {
 }
 
 .home-grid .card-body {
-    flex: 6;
+    flex: 5;
 }
 
 .home-grid img {
     width: 100%;
+    height: 100%;
 }
 
 .home-grid .card-bottom {
     position: relative;
-    flex: 5;
+    flex: 4;
     height: 100%;
 }
 
@@ -200,7 +201,7 @@ section {
         gap: 1em;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .home-grid {
         flex-direction: column;
     }
@@ -216,6 +217,14 @@ section {
     }
 }
 
+footer {
+    padding-top: 10px;
+    margin-bottom: 2em;
+    text-align: center;
+    color: #ddd;
+    opacity: 0.5;
+}
+
 /* Mobile Breakpoint */
 @media (max-width:500px) {
     .img-grid {
@@ -223,6 +232,7 @@ section {
         gap: 1em;
         grid-template-columns: 1fr;
     }
+
     section {
         padding: 0 1em;
     }
