@@ -134,7 +134,7 @@ section {
 
 .home-grid .card-bottom {
     position: relative;
-    flex: 4;
+    flex: 3;
     height: 100%;
 }
 
@@ -144,8 +144,8 @@ section {
     right: 0;
     color: #fff;
     background: #222222;
-    opacity: 0.6;
-    padding: 1em 0.5em;
+    opacity: 0.8;
+    padding: 0.4em 0.7em;
     font-size: 1.8em;
     border: none;
     cursor: pointer;
@@ -219,10 +219,12 @@ section {
 
 footer {
     padding-top: 10px;
+    font-weight: normal;
+    font-size: small;
     margin-bottom: 2em;
     text-align: center;
     color: #ddd;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 /* Mobile Breakpoint */
@@ -236,4 +238,49 @@ footer {
     section {
         padding: 0 1em;
     }
+
+    #boton{
+        width: 100%;
+    }
+}
+#name,
+#email      {
+    padding:9px;
+    width: 49%;
+    position: relative;
+    background-color:rgb(243, 239, 239);
+    border:0px solid black;
+
+    
+}
+#email{
+    left: 10px;
+}
+
+#subuject{
+    padding:9px;
+    width:100%;
+  margin-top:20px;
+  background-color:rgb(243, 239, 239);
+  border:0px solid black;
+}
+#mesg{
+  margin-top: 20px;
+  padding:9px;
+width:100% ;
+padding-bottom: 130px;
+background-color:rgb(243, 239, 239);
+border:0px solid black;
+
+}
+#boton{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    padding:12px; 
+    border:0px solid black;
+    margin-top: 4px;
+
+}
+#cont{
+    padding: 5px;
 }
